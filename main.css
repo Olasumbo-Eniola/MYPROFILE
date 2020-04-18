@@ -85,7 +85,7 @@ body{
     -o-animation: fadeIn ease 10s;
     -ms-animation: fadeIn ease 10s;
     animation-iteration-count: infinite;
-    height: 800px;
+    height: 100%;
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
