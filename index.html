@@ -1,6 +1,67 @@
 <!DOCTYPE html>
 <htmL>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
     <body>
-        <h1>It's not ready for grading, I submitted the wrong link please</h1>
+       
+        <div class="code">
+            <code>
+            let data = []; //I submitted the wrong link by mistake<br>
+          function myFunction(number){<br>
+               for (i = 1;  i <= number; i++){<br>
+                    if (i % 2 === 0 && i % 3 === 0 && i % 5 === 0){<br>
+                        data.push("yu-gi-oh");<br>
+                    } else if (i % 2 === 0 && i % 3 === 0){<br>
+                        data.push("yu-gi");<br>
+                    } else if (i % 2 === 0 && i % 5 === 0){<br>
+                        data.push("yu-oh");<br>
+                    } else if(i % 3 === 0 && i % 5 === 0){<br>
+                        data.push("gi-oh");<br>
+                    }else if ( i % 2 === 0){<br>
+                        data.push("yu");<br>
+                    }else if (i % 3 === 0){<br>
+                        data.push("gi");<br>
+                    }else if (i % 5 === 0){<br>
+                        data.push("oh");<br>
+                    }else{<br>
+                        data.push(i);<br>
+                    }<br>
+                }<br>
+                console.log(data);<br>
+            }<br>
+            myFunction(20);<br>
+            myFunction(100);
+           
+        </div>
+             <script>
+              let data = []
+                 function myFunction(number){
+                   
+                     for (i = 1;  i <= number; i++){
+                         if (i % 2 === 0 && i % 3 === 0 && i % 5 === 0){
+                             data.push("yu-gi-oh");
+                         } else if (i % 2 === 0 && i % 3 === 0){
+                             data.push("yu-gi");
+                         } else if (i % 2 === 0 && i % 5 === 0){
+                             data.push("yu-oh");
+                         } else if(i % 3 === 0 && i % 5 === 0){
+                             data.push("gi-oh");
+                         }else if ( i % 2 === 0){
+                             data.push("yu");
+                         }else if (i % 3 === 0){
+                             data.push("gi");
+                         }else if (i % 5 === 0){
+                             data.push("oh");
+                         }else{
+                             data.push(i);
+                         }
+                     }
+                     console.log(data);
+                 }
+                 myFunction(20);
+                 myFunction(100);
+             </script>
+        
     </body>
 </htmL>
